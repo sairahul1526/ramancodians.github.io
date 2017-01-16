@@ -58,6 +58,10 @@ app.config(['$routeProvider',
                 templateUrl: 'public/views/projects/fastbuy.html',
                 controller: 'ProjectCtrl'
             })
+            .when('/projects/swenn', {
+                templateUrl: 'public/views/projects/swenn.html',
+                controller: 'ProjectCtrl'
+            })
             // *******************************************
             .when('/about', {
                 templateUrl: 'public/views/about.html',
